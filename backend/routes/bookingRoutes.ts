@@ -9,7 +9,7 @@ const rooms: Room[] = require("../data/rooms.json");
 
 // Get all bookings
 router.get("/", (req: Request, res: Response) => {
-  res.send("All Bookings");
+  res.json(bookings);
 });
 
 // Create a booking
