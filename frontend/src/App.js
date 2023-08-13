@@ -3,7 +3,7 @@ import Bookings from "./components/Bookings";
 
 function App() {
   return (
-    <div className="App">
+    <div className="text-3xl font-bold underline">
       <h1>Hotel Booking App</h1>
       <Bookings />
     </div>
